@@ -15,15 +15,20 @@
 		/>
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet" />
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Dokdo&display=swap" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link href="https://fonts.googleapis.com/css2?family=Dokdo&display=swap" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap"
+			rel="stylesheet"
+		/>
 		<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-60a907f722ee701a"></script>
+		<script
+			type="text/javascript"
+			src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-60a907f722ee701a"
+		></script>
 
-
-		<title>Hello, world!</title>
+		<title>머니게임 테스트</title>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 
@@ -96,7 +101,13 @@
 		<section class="youtube">
 			<div class="container mt-5 youtube-cover d-flex flex-row-reverse">
 				<img src="img/youtube-copy.jpg" alt="" class="youtube-icon" />
-				<a href="https://www.youtube.com/embed/ZTJjW7XuHIY" class="youtube-link" target = "_blank" title = "조코딩 동물상테스트 만들기 1강">제작도움: 조코딩 유튜브 채널</a>
+				<a
+					href="https://www.youtube.com/embed/ZTJjW7XuHIY"
+					class="youtube-link"
+					target="_blank"
+					title="조코딩 동물상테스트 만들기 1강"
+					>제작도움: 조코딩 유튜브 채널</a
+				>
 			</div>
 		</section>
 
@@ -122,17 +133,17 @@
 			<div class="file-upload-content">
 				<img class="file-upload-image" id="face-image" src="#" alt="your image" />
 				<div id="loading" class="animated bounce">
-                <div class="spinner-border" role="status">
-                    <span class="sr-only">Loading...</span>
-                </div>
-                <p class="text-center">AI가 당신의 동물상을 분석중입니다.</p>
-            </div>
+					<div class="spinner-border" role="status">
+						<span class="sr-only">Loading...</span>
+					</div>
+					<p class="text-center">AI가 당신의 동물상을 분석중입니다.</p>
+				</div>
 				<p class="result-message"></p>
 				<div id="label-container" class="d-flex flex-column justify-content-around"></div>
-				
-                <!-- Go to www.addthis.com/dashboard to customize your tools -->
-                <div class="addthis_inline_share_toolbox"></div>
-            
+
+				<!-- Go to www.addthis.com/dashboard to customize your tools -->
+				<div class="addthis_inline_share_toolbox"></div>
+
 				<div class="image-title-wrap">
 					<button type="button" onclick="removeUpload()" class="remove-image">
 						Remove <span class="image-title">Uploaded Image</span>
@@ -223,7 +234,7 @@
 			// https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
 			// the link to your model provided by Teachable Machine export panel
-			const URL = "https://teachablemachine.withgoogle.com/models/QqpVzsre0/";
+			const URL = 'https://teachablemachine.withgoogle.com/models/QqpVzsre0/';
 
 			let model, webcam, labelContainer, maxPredictions;
 
