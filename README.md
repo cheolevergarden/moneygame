@@ -46,3 +46,6 @@ goormIDE is a powerful cloud IDE service to maximize productivity for developers
 Visit [https://ide.goorm.io](https://ide.goorm.io) to support and learn more about using goormIDE.  
 To watch some usage guides, visit [https://help.goorm.io/en/goormide](https://help.goorm.io/en/goormide)
 # monetgame
+
+# 머니게임 테스트 주소 
+https://dongame.netlify.app/
